@@ -8,12 +8,20 @@ const RigntCardContent = (props) => {
         {props.id}
       </h2>
       <div>
-        <p className=" text-shadow-2xs leading-relaxed text-white mb-10">{props.desc}</p>
+        <p className=" text-shadow-2xs leading-relaxed text-white mb-10">
+          {props.desc}
+        </p>
         <div className="flex justify-between">
-          <button style={{backgroundColor:props.color}} className="text-white font-semibold rounded-full px-2 py-2">
+          <button
+            style={{ backgroundColor: props.color }}
+            className="text-white font-semibold rounded-full px-2 py-2"
+          >
             {props.tag}
           </button>
-          <button style={{backgroundColor:props.color}} className="text-white font-semibold  rounded-full px-2 py-2">
+          <button
+            style={{ backgroundColor: props.color }}
+            className="text-white font-semibold  rounded-full px-2 py-2"
+          >
             <MoveRight />
           </button>
         </div>
