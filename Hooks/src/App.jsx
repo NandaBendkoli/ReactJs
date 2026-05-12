@@ -1,5 +1,6 @@
 import React from "react";
 import Notes from "./Notes-Project/Notes";
+import UseEffect_02 from "./Hooks/UseEffect/UseEffect_02";
 // import Hook_UseState from "./Hooks/Hook_UseState";
 // import Counter from "./Hooks/Counter";
 // import Usestate_Notes from "./Hooks/Usestate_Notes";
@@ -7,9 +8,7 @@ import Notes from "./Notes-Project/Notes";
 // import TwoWayBinding from "./TwoWayBinding";
 
 const App = () => {
-  const formSubmitHandler = () => {
-    console.log("Form is submitted!.");
-  };
+
   return (
     <>
       {/* <Hook_UseState/> */}
@@ -18,9 +17,12 @@ const App = () => {
       {/* <FormsHandling/> */}
       {/* <TwoWayBinding/> */}
 
-      <div className="bg-slate-950 min-h-screen">
+      {/* <div className="bg-slate-950 min-h-screen">
         <Notes />
-      </div>
+      </div> */}
+      {/* <UseEffetc_Hook/> */}
+      <UseEffect_02/>
+
     </>
   );
 };
